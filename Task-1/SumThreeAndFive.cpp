@@ -8,7 +8,7 @@
 #include<iostream>
 using namespace std;
 
-
+int total = 0;
 int sumThreeAndFive(int n) {
   
     if (n == 1) {
