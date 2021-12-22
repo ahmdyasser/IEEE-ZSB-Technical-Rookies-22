@@ -11,6 +11,7 @@ using namespace std;
 void guessGame() {
     int input;
     int counter = 0;
+    srand(time(NULL));
     int randomNum = rand() % 11;
    
     while (input != randomNum) {
@@ -28,4 +29,3 @@ void guessGame() {
     }
     
 }
-
